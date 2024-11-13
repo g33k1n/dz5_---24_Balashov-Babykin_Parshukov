@@ -1,4 +1,4 @@
-import sys
+eimport sys
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QGraphicsOpacityEffect
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import Qt
@@ -20,7 +20,7 @@ class FoodMenuWindow(QWidget):
 
         # Лейблы для картинок
         self.burger1_label = QLabel(self)
-        pixmap_burger1 = QPixmap("burger1.jpg").scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio)
+        pixmap_burger1 = QPixmap("burger1.jpeg").scaled(150, 150, Qt.AspectRatioMode.KeepAspectRatio)
         self.burger1_label.setPixmap(pixmap_burger1)
         self.burger1_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
